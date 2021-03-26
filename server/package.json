@@ -1,0 +1,15 @@
+{
+  "name": "pdf-screenshot-server",
+  "version": "1.0.0",
+  "description": "Take a PDF screenshot of an HTML page",
+  "main": "src/index.js",
+  "author": "Tim",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "puppeteer": "^8.0.0"
+  }
+}
