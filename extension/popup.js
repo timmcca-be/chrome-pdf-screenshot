@@ -18,6 +18,7 @@ form.addEventListener('submit', async (event) => {
 });
 
 function screenshot() {
+    // tell the raw HTML where links should be loaded from
     const base = document.createElement('base');
     base.href = window.location.origin;
     const head = document.getElementsByTagName('head')[0];
