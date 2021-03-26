@@ -1,6 +1,6 @@
 # Chrome PDF Screenshot
 
-This is a tool to take PDF screenshots of HTML pages.
+This is a tool to take PDF screenshots of HTML pages. Since the page size is fully customizable and there is no header or footer, this works better than Chrome or Firefox's built-in print to PDF functionality for posters and similar content.
 
 ## Setup
 
