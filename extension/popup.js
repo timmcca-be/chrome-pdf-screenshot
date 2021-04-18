@@ -18,11 +18,13 @@ form.addEventListener('submit', async (event) => {
 });
 
 function screenshot() {
-    // tell the raw HTML where links should be loaded from
-    const base = document.createElement('base');
-    base.href = window.location.origin;
-    const head = document.getElementsByTagName('head')[0];
-    head.insertBefore(base, head.firstChild);
+    if(document.getElementsByTagName('base').length === 0) {
+        // tell the raw HTML where links should be loaded from
+        const base = document.createElement('base');
+        base.href = window.location.origin;
+        const head = document.getElementsByTagName('head')[0];
+        head.insertBefore(base, head.firstChild);
+    }
     // ensure input values are saved
     for(const input of document.getElementsByTagName('input')) {
         input.setAttribute('value', input.value);
