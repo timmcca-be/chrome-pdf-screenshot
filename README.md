@@ -6,7 +6,7 @@ This is a tool to take PDF screenshots of HTML pages. Since the page size is ful
 
 ### Chrome Extension
 
-Follow the instructions on [Getting Started - Chrome Developers](https://developer.chrome.com/docs/extensions/mv3/getstarted/) to load the extension.
+Follow the instructions on [Getting Started - Chrome Developers](https://developer.chrome.com/docs/extensions/mv3/getstarted/#unpacked) to load the extension.
 
 ### Node Server
 
